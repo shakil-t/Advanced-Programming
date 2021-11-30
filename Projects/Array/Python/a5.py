@@ -16,6 +16,3 @@ for c in l:
     if(d==c):
         counter+=1
 print(d,":",counter)
-                
-                
-        
