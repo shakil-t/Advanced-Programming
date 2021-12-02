@@ -14,5 +14,4 @@ x=float(input("Enter a number"))
 sum=0
 for b in range(0,20):
     sum+=sinh(x,b)
-print(sum)
-    
+print(sum)    
