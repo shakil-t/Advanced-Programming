@@ -1,4 +1,3 @@
-
 n = int(input())
 ans = 0
 while n>0:
