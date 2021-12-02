@@ -1,4 +1,3 @@
-
 for t in range(0,1000):
     for i in range(1, 8):
         s = ""
