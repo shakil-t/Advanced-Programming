@@ -11,7 +11,4 @@ for a in range(0,n):
     for c in range(0,a+1):
         p=f(a)/(f(c)*f(a-c))
         print(p,end="\t")
-    print("\n")    
-    
-          
-        
+    print("\n")         
