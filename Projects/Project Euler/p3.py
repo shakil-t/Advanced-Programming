@@ -13,5 +13,6 @@ for a in l:
     for c in range(3,b):
         if b%c==0:
             l.remove(a)
+            break
 
 print(l)
