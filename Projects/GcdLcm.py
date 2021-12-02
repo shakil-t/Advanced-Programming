@@ -25,5 +25,3 @@ a=int(input("Enter the first number"))
 b=int(input("Enter the second number"))
 print("Gcd=",Gcd(a,b))
 print("Lcd=",Lcd(a,b))
-
-
