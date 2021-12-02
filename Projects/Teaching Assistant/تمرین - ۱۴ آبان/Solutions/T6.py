@@ -1,4 +1,3 @@
-
 hight = float(input())
 mass = float(input())
 bmi = mass / (hight * hight)
