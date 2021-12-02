@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package problem11;
+package p11;
 
 /**
  *
  * @author shakil
  */
-public class Problem11 {
+public class P11 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // This code is a solution to the [11th problem of projecteuler.net](https://projecteuler.net/problem=11)
          int Grid [][] = {
         {8,02,22,97,38,15,00,40,00,75,04,05,07,78,52,12,50,77,91,8},
         {49,49,99,40,17,81,18,57,60,87,17,40,98,43,69,48,04,56,62,00},
@@ -42,7 +42,7 @@ public class Problem11 {
         int Product = 0;
         int largest = 0;
          
-        // Check horizontally
+        //check horizontally
         for(int i = 0; i < 20; i++){
             for(int j = 0; j < 17; j++){
                 Product = Grid[i][j] * Grid[i][j + 1] * Grid[i][j + 2] * Grid[i][j + 3];
@@ -52,7 +52,7 @@ public class Problem11 {
             }   
         }
          
-        // Check vertically
+        //check vertically
         for(int i = 0; i < 17; i ++){
             for(int j = 0; j < 20; j++){
                 Product = Grid[i][j] * Grid[i + 1][j] * Grid[i + 2][j] * Grid[i + 3][j];
@@ -62,7 +62,7 @@ public class Problem11 {
             }
         }
          
-        // Check diagonally right
+        //check diagonally right
         for(int i = 0; i < 17; i++){
             for(int j = 0; j < 17; j++){
                 Product = Grid[i][j] * Grid[i + 1][j + 1] * Grid[i + 2][j + 2] * Grid[i + 3][i + 3];
@@ -72,7 +72,7 @@ public class Problem11 {
             }
         }
          
-        // Check diagonally left
+        //check diagonally left
         for(int i = 0; i < 17; i ++){
             for(int j = 3; j < 20; j ++){
                 Product = Grid[i][j] * Grid[i + 1][j - 1] * Grid[i + 2][j  - 2] * Grid[i + 3][j - 3];
