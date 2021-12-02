@@ -1,4 +1,3 @@
-
 for t in range(0, 21):
     for i in range(1, 6):
         s = ""
