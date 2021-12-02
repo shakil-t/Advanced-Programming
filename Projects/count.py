@@ -14,6 +14,4 @@ for i in l:
         d[i]+=1
     else:
         d[i]=1
-print(d)
-             
-    
+print(d)    
