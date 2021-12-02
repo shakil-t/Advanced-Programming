@@ -3,4 +3,3 @@ Greenlee Smythe 3 3.9 3 4.0 4 3.9
 Ryan Laveree 2 4.0 3 3.6 4 3.8 1 2.8
 Adam Chandler 3 3.0 4 2.9 3 3.2 2 2.5
 Loui Rechard 4 1.5 5 1.9
-
