@@ -1,4 +1,3 @@
-
 a = int(input())
 t = input("C or F?")
 if t == "C" or t == "c":
