@@ -51,7 +51,7 @@ public class Count {
         }
     }
     public static void main(String[] args) 
-// TODO code application logic here
+// This code was developed partially in collaboration with a student; however it has a few bugs
             throws FileNotFoundException {
         Scanner input=new Scanner(new File("C:/Users/shakil/count.txt"));
         while(input.hasNextLine()){
