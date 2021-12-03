@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class count {
 
     public static void main(String[] args) throws IOException {
+        // This code was developed in collaboration with [Parya Derakhshan](https://github.com/pder00) which works smoothly
         List<String> words = new ArrayList<String>();
         List<Integer> counts = new ArrayList<Integer>();
         File file = new File("C:/Users/shakil/count.txt");
